@@ -4,12 +4,13 @@ export const Form = styled.form`
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 30px;
+  width: 100%;
+  max-width: 500px;
 `
 
 export const Input = styled.input`
   display: flex;
-  width: 300px;
+  flex: 1;
   align-items: center;
   padding: 0 10px;
   background: transparent;
@@ -44,5 +45,4 @@ export const Button = styled.button`
 export const ErrorMessage = styled.p`
   color: red;
   font-size: 14px;
-  margin-top: 10px;
 `

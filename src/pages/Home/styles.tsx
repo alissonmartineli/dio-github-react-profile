@@ -7,4 +7,8 @@ export const Container = styled.div`
   justify-content: center;
   width: 100%;
   min-height: 100vh;
+
+  > * {
+    margin: 15px 0;
+  }
 `
