@@ -23,15 +23,18 @@ export const Header = styled.div`
 `
 
 export const Content = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+`
+
+export const NotFound = styled.div`
+  width: 100%;
   background: #333;
   border: 1px solid #666;
   border-radius: 4px;
   padding: 20px;
-  width: 100%;
   box-sizing: border-box;
-`
-
-export const NotFound = styled.h2`
   font-size: 1.2em;
   font-weight: medium;
 `
